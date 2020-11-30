@@ -1,7 +1,6 @@
 # Topic
-• audio tag</br>
-• event: keydown, transitionend</br>
-• event property: keyCode</br>
+• Date Object</br>
+• setTimeout(), setInterval</br>
 
-# 要點
-第一個單元主要操作 HTML 的 audio tag 跟 keyboard 事件。
+# Concept
+第二個單元來製作時鐘，主要用到 setInterval() 這個 global 的 method，而時、分、秒的取得與計算則是運用了 Date 物件。
