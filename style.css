@@ -1,0 +1,101 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  color:#29342D ;
+}
+
+body {
+  background-color: #F3F8F5;
+}
+
+.head-section {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.title {
+  align-self: center;
+  font-size: 5rem;
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif;
+}
+
+.practices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+}
+
+.practice {
+  width: 20rem;
+  height: 330px;
+  box-shadow: 0 0 8px #ccc;
+  margin: 1rem 1rem;
+  background-color: #fff;
+}
+
+.detail {
+  color:#29342D ;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail > h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.detail > a {
+  text-decoration: none;
+  color:#29342D ;
+  font-size: 0.8rem;
+  right:0;
+  border: 1px solid #29342D;
+  border-radius: 2px;
+  padding: .1rem .5rem;
+  /* margin-top: 1rem; */
+  display:block;
+  width: 3.5rem;
+  text-align: center;
+  align-self: center;
+  bottom: 1rem;
+}
+
+.detail > a:hover {
+  text-decoration: none;
+  background-color: #29342D;
+  color:#F3F8F5;
+}
+
+.detail .subtext {
+  margin: .2rem 0;
+  font-size: 0.8rem;
+  height: 3rem;
+}
+
+.practice .detail {
+  padding: 1rem;
+}
+
+.practice:hover {
+  transform: translateY(-5%);
+  cursor: pointer;
+}
+
+/* RWD */
+@media screen and (max-width: 414px) {
+  .head-section {
+    width: 90vw;
+  }
+  .title {
+    font-size: 3rem;
+  }
+}
